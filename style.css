@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+ background-color: #060505;
+
+}
+li{
+    display: inline;
+    float: left;
+background-color: black;}
+
+a{
+    display: block;
+    padding: 14px 16px;
+    background-color: #060505;
+    color: white;
+text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(12, 199, 77);
+}
+.active{
+    background-color: #abc8be;
+}
+.search{
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    border-radius:50px;
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+}
